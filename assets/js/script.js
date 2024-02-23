@@ -214,7 +214,7 @@ document.write(
 document.write("<h2>Consultas médicas Dental</h2>");
 dental.forEach(function (consulta) {
   document.write(
-    `<div class="consulta">${consulta.hora} - ${consulta.especialista} - ${consulta.paciente} - ${consulta.rut} - ${consulta.prevision}</div>`
+    `<div class="contenedor-consulta"><div class="consulta">${consulta.hora} - ${consulta.especialista} - ${consulta.paciente} - ${consulta.rut} - ${consulta.prevision}</div></div>`
   );
 });
 

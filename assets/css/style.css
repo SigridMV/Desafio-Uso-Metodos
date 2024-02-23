@@ -1,4 +1,10 @@
+.contenedor-consultas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .consulta {
+  display: inline-block;
   border: 1px solid green;
   padding: 10px;
   margin-bottom: 10px;
